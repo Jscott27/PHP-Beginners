@@ -1,6 +1,6 @@
 <?php
 //To Check This Program First Create a File 'Tutorial - 86.txt' In Same Location Where You Have Originally Saved This Program
-
+//If File ALready Exists & Program Isn't Working Correctly Then try To Rename It First As 'Tutorials - 86.txt'
 $filename = 'Tutorial - 86.txt';
 $rand = rand(9999,99999);
 if(file_exists($filename)){
